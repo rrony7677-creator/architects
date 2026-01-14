@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.display-flex{display: flex }
+.text-gray{color: #424242;}
+.text-light-gray{color: #727272;}
+.text-primary{color:#FF900E;}
+.bg-light{ background-color: rgba(255, 144, 14, 0.1);}
+.navbar {justify-content: space-between;}
+.brand{font-size: 45px;font-weight: bold;}
+.nav-item{ list-style: none;}
+.nav-link{
+text-decoration: none; margin-right: 30px;
+ }
+.nav-links{ }
+.navbar , .banner ,.teams{
+max-width: 1440px; margin: 0 auto;
+}
+.banner-content{max-width: 850px;
+margin: 0 auto;margin-bottom: 50px;
+text-align: center;}
+.banner-title{font-size:64px;
+color: #131313;}
+.banner-description{font-size: 16px;
+color: #727272;}
+.button-primary{background-color: #FF900E;
+padding: 20px 25px;
+color: white;
+border-radius: 5px;
+font-size: 1.5rem;
+font-weight: 600;
+border: none;}
+.banner-pic{width: 100%;}
+/*responsive}*/
+
+.teams{ margin-top: 75px;/*gap: 73px;/*gap or our features e margin o auto dileo hy*/
+/*align-items: center;*/
+   }
+.team-img-content{ display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 24px;}
+.our-features{max-width: 537px;
+margin: 0 auto;}
+/*common title*/
+.section-title{font-size: 45px;
+  font-weight: 468px;}
+  
+#quick-list {font-size: 45px;
+font-weight: 500;}
+.feature-description{
+font-size: 16px;
+margin-top: 32px;
+color: #727272;}
+
+
+
+
+
+/*responsive}*/
+@media screen and (max-width: 576px){
+.navbar , .nav-links , .teams{flex-direction: column;}
+.team-img-content{
+display: grid;
+grid-template-columns: repeat(1,1fr);     }
+}
